@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Selector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Image Selector</h1>
+    <p id="status">Hey looks like you didn't select all the images.</p>
+    <div id="cards-container" class="cards-container">
+        <div class="card" data-index="0"><span>?</span></div>
+        <div class="card" data-index="1"><span>?</span></div>
+        <div class="card" data-index="2"><span>?</span></div>
+    </div>
+    <div id="modal" class="modal-overlay hidden">
+        <div class="modal">
+            <p>Congratulations, you have selected all the images. Please inform Mr. D about your selections.</p>
+        </div>
+    </div>
+    <div id="spinner" class="spinner hidden"></div>
+    <script src="script.js"></script>
+</body>
+</html>
