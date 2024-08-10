@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     const images = [
-      { id: 1, src: 'https://via.placeholder.com/150/FF0000/FFFFFF?text=Image1' },
-      { id: 2, src: 'https://via.placeholder.com/150/00FF00/FFFFFF?text=Image2' },
-      { id: 3, src: 'https://via.placeholder.com/150/0000FF/FFFFFF?text=Image3' },
-      { id: 4, src: 'https://via.placeholder.com/150/FFFF00/FFFFFF?text=Image4' },
-      { id: 5, src: 'https://via.placeholder.com/150/FF00FF/FFFFFF?text=Image5' }
+      { id: 1, src: './assets/image1.jpeg' },
+      { id: 2, src: './assets/image2.jpeg' },
+      { id: 3, src: './assets/image3.jpeg' },
+      { id: 4, src: './assets/image4.jpeg' },
+      { id: 5, src: './assets/image5.jpeg' }
     ];
   
     const cards = document.querySelectorAll('.card');
